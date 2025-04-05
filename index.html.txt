@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acquapoint - Academia de Esportes Aquáticos e Musculação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Acquapoint">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Bem-vindo ao Acquapoint</h1>
+        <p>Academia de Esportes Aquáticos e Musculação</p>
+        <button onclick="scrollToSection('servicos')">Conheça nossos serviços</button>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre nós</h2>
+        <p>O Acquapoint é a melhor escolha para quem busca melhorar o desempenho em esportes aquáticos e também fortalecer o corpo com musculação. Nossos profissionais são altamente qualificados e temos um ambiente moderno e motivador.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servico">
+            <h3>Esportes Aquáticos</h3>
+            <p>Aula de natação, polo aquático, hidroginástica e muito mais!</p>
+        </div>
+        <div class="servico">
+            <h3>Musculação</h3>
+            <p>Equipamentos modernos e treinos personalizados para todos os níveis.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Email: contato@acquapoint.com.br</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Acquapoint - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
